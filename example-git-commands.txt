@@ -4,7 +4,7 @@
 # git clone {repo-name}
 git clone git@github.com:bkfunker/learninglinux.git
 
-#one time thing has to be set up every new system.
+# one time thing has to be set up every new system.
 # ** Be sure you set up global settings before commiting **
 # - change the lines below to refelect your information -
 # git config --global user.name "Your Name"

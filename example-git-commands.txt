@@ -1,0 +1,24 @@
+
+
+# VERY basic how to use git
+# git clone {repo-name}
+git clone git@github.com:bkfunker/learninglinux.git
+
+
+# Make a basic commit (after editing a file)
+# First, move to the top directory of the git project
+# Then add all new files to the merge set
+git add .
+
+# Commit the changes to your local copy and creat a commit message
+git commit -m "some message here"
+
+# Finally, update the repository on github
+git push origin master
+
+
+# If others are working in the github repo, or if you 
+#  receive an error while trying to push your changes
+git pull
+
+
